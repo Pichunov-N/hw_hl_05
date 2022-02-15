@@ -45,10 +45,21 @@
 // ];
 
 
-// let user = vehicles.filter(item => item.type == "suv" || item.type == "SUV" );
-// let result = user.reduce((sum, current) => sum + current.price, 0) / user.length;
+// let necessaryType = vehicles.filter(item => item.type == "suv" || item.type == "SUV" );
+// let result = necessaryType.reduce((sum, current) => sum + current.price, 0) / necessaryType.length;
 
 // console.log(result)
+
+
+
+//6
+let arr = [10, 20, 3, 4, 0, 99, 97];
+
+const copySorted = () => arr.slice().sort((a, b) => a - b);
+let sorted = copySorted(arr);
+
+console.log(arr);
+console.log(sorted);
 
 
 
