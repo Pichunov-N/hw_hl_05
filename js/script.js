@@ -27,3 +27,42 @@
 
 // console.log(truncate("Hello world", 5));
 // console.log(truncate("Hello world", 11));
+
+
+
+//5
+// const vehicles = [
+//     { make: 'Honda', model: 'CR-V', type: 'suv', price: 24045 },
+//     { make: 'Honda', model: 'Accord', type: 'sedan', price: 22455 },
+//     { make: 'Mazda', model: 'Mazda 6', type: 'sedan', price: 24195 },
+//     { make: 'Mazda', model: 'CX-9', type: 'suv', price: 31520 },
+//     { make: 'Toyota', model: '4Runner', type: 'suv', price: 34210 },
+//     { make: 'Toyota', model: 'Sequoia', type: 'SUV', price: 45560 },
+//     { make: 'Toyota', model: 'Tacoma', type: 'truck', price: 24320 },
+//     { make: 'Ford', model: 'F-150', type: 'truck', price: 27110 },
+//     { make: 'Ford', model: 'Fusion', type: 'sedan', price: 22120 },
+//     { make: 'Ford', model: 'Explorer', type: 'SUV', price: 31660 }
+// ];
+
+
+// let user = vehicles.filter(item => item.type == "suv" || item.type == "SUV" );
+// let result = user.reduce((sum, current) => sum + current.price, 0) / user.length;
+
+// console.log(result)
+
+
+
+//7
+// let ourObj = {};
+
+// function getKeysCount(ourObj) {
+//     return Object.keys(ourObj).length;
+// }
+
+// или
+
+// const getKeysCount = (ourObj) => Object.keys(ourObj).length;
+
+// console.log(getKeysCount({ name: 'John' }));
+// console.log(getKeysCount({ name: 'John', age: 22 }));
+// console.log(getKeysCount({ name: 'John', salary: null }));
