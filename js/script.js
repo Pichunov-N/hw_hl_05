@@ -29,6 +29,41 @@
 // console.log(truncate("Hello world", 11));
 
 
+//4
+// const students = [
+//     {
+//         name: 'John Smith',
+//         marks: [10, 8, 6, 9, 8, 7]
+//     },
+//     {
+//         name: 'John Doe',
+//         marks: [9, 8, 7, 6, 7]
+//     },
+//     {
+//         name: 'Thomas Anderson',
+//         marks: [6, 7, 10, 8]
+//     },
+//     {
+//         name: 'Jean-Baptiste Emanuel Zorg',
+//         marks: [10, 9, 8, 9]
+//     }
+// ]
+
+
+// const newStudents = () => students.map((student) => {
+//     const newStudent = Object.assign({}, student);
+//     newStudent.averageMark = newStudent.marks.reduce((sum, mark) => sum + mark, 0) / newStudent.marks.length;
+//     return newStudent;
+// });
+
+// console.log(newStudents());
+
+
+// const result = () => newStudents().reduce((sum, student) => sum + student.averageMark, 0) / newStudents().length;
+
+// console.log(result())
+
+
 
 //5
 // const vehicles = [
@@ -53,13 +88,13 @@
 
 
 //6
-let arr = [10, 20, 3, 4, 0, 99, 97];
+// let arr = [10, 20, 3, 4, 0, 99, 97];
 
-const copySorted = () => arr.slice().sort((a, b) => a - b);
-let sorted = copySorted(arr);
+// const copySorted = () => arr.slice().sort((a, b) => a - b);
+// let sorted = copySorted(arr);
 
-console.log(arr);
-console.log(sorted);
+// console.log(arr);
+// console.log(sorted);
 
 
 
